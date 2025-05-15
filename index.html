@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Name Meaning Generator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">What Does Your Name Say About You?</h1>
+    <div id="input-section">
+      <input type="text" id="name-input" placeholder="Enter your name..." />
+      <button onclick="generateMeaning()">Reveal My Meaning!</button>
+    </div>
+    <div id="result-section" class="hidden">
+      <p id="result-text"></p>
+      <a id="share-link" target="_blank">Share on WhatsApp</a>
+      <button onclick="restart()">Try Another Name</button>
+    </div>
+  </div>
+  <footer>Made with magic by You</footer>
+  <script src="script.js"></script>
+</body>
+</html>
